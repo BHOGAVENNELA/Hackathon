@@ -67,7 +67,7 @@ def build_student_success_platform():
     # Step 7: Launch Web Dashboard
     print("[6/6] Launching Module 7 Interactive Web Dashboard...")
 
-    port = int(os.environ.get("PORT, 8000))
+    port = int(os.environ.get("PORT", 8000))
     run_server(final_student_profiles, port=port)
 
 if __name__ == "__main__":
