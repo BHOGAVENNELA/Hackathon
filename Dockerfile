@@ -4,5 +4,5 @@ WORKDIR /app
 
 COPY . .
 
-CMD ["python", "main.py"]
+CMD ["python", "app.py"]
 
