@@ -9,6 +9,7 @@ Orchestrates:
 6. Explainable AI & Interventions (Module 6)
 7. Interactive Web Dashboard Server (Module 7)
 """
+import os
 
 from module1_data_integration import DataIntegrationEngine
 from module2_feature_engineering import FeatureEngineeringModule
